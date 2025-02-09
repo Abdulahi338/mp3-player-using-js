@@ -45,13 +45,12 @@ body{
     height: 6px;
     overflow: hidden;
     border-radius: 5px;
-    cursor: pointer;
-
 }
 .progress{
     background-color: #1db954;
     width: 0%;
     height: 100%;
+    curs
     transition: width 0.1sec linear;
  
 }

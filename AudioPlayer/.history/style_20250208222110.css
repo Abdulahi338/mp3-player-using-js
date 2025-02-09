@@ -45,8 +45,6 @@ body{
     height: 6px;
     overflow: hidden;
     border-radius: 5px;
-    cursor: pointer;
-
 }
 .progress{
     background-color: #1db954;

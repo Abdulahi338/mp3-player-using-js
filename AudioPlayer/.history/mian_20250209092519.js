@@ -87,7 +87,7 @@ function updateProgress(e){
   
     const {duration , currentTime} =e.srcElement;
     const progrssPercentage =(currentTime /duration)*100;
-  
+    console.log(curremtMin)
     progress.style.width =`${progrssPercentage}%`;
 
     //Time

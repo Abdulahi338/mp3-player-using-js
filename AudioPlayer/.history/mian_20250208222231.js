@@ -13,7 +13,7 @@ const pevBtn  = document.querySelector("#prev");
 const speedSlider = document.querySelector("#speed");
 const volume = document.querySelector("#volume");
 const progreess_bar =document.querySelector(".progreess-bar");
-let progress = document.querySelector(".progress");
+const progress = document.querySelector(".progress");
  
 // songs
 const songs =[
@@ -82,12 +82,10 @@ function pervioseSong(){
 }
     
 function updateProgress(e){
-
    
   
     const {duration , currentTime} =e.srcElement;
     const progrssPercentage =(currentTime /duration)*100;
-  
     progress.style.width =`${progrssPercentage}%`;
 
     //Time
@@ -110,14 +108,7 @@ function updateProgress(e){
     }
 
     function setprogress(e){
-        const width = this.clientWidth;
-        const offSetX = e.offsetX;
-        const duration = aoudioElemnt.duration;
-        console.log(duration)
-        const newTime = (offSetX / width)*duration;
-        console.log(newTime)
-        if(isNaN(duration)) return
-        aoudioElemnt.currentTime = newTime;
+        comsoleq
 
     }
 
@@ -141,7 +132,7 @@ pevBtn.addEventListener("click",pervioseSong);
 
 aoudioElemnt.addEventListener("timeupdate",updateProgress);
 
-progreess_bar.addEventListener("click",setprogress)
+progress.addEventListener("click",setprogress)
 
 
 

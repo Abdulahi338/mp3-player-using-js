@@ -82,12 +82,10 @@ function pervioseSong(){
 }
     
 function updateProgress(e){
-
    
   
     const {duration , currentTime} =e.srcElement;
     const progrssPercentage =(currentTime /duration)*100;
-  
     progress.style.width =`${progrssPercentage}%`;
 
     //Time
@@ -110,14 +108,9 @@ function updateProgress(e){
     }
 
     function setprogress(e){
-        const width = this.clientWidth;
-        const offSetX = e.offsetX;
-        const duration = aoudioElemnt.duration;
-        console.log(duration)
-        const newTime = (offSetX / width)*duration;
-        console.log(newTime)
-        if(isNaN(duration)) return
-        aoudioElemnt.currentTime = newTime;
+        const width = this.;
+        console.log(width)
+        console.log(e.offsetx)
 
     }
 

@@ -82,12 +82,11 @@ function pervioseSong(){
 }
     
 function updateProgress(e){
-
+    
    
   
     const {duration , currentTime} =e.srcElement;
     const progrssPercentage =(currentTime /duration)*100;
-  
     progress.style.width =`${progrssPercentage}%`;
 
     //Time
