@@ -122,8 +122,7 @@ function updateProgress(e){
     }
 
     function updateValume(e){
-        console.log(e.target.value);
-        aoudioElemnt.volume = e.target.value;
+        console.log(e.t.valeu)
     }
 
 // events

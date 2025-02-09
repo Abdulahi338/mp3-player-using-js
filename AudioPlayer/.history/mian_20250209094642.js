@@ -122,8 +122,7 @@ function updateProgress(e){
     }
 
     function updateValume(e){
-        console.log(e.target.value);
-        aoudioElemnt.volume = e.target.value;
+        console.log(e.target.value)
     }
 
 // events
@@ -148,7 +147,10 @@ aoudioElemnt.addEventListener("timeupdate",updateProgress);
 
 progreess_bar.addEventListener("click",setprogress);
 
-volumeSelected.addEventListener("input",updateValume)
+volumeSelected.addEventListener("input",up{
+    
+
+})
 
 
 

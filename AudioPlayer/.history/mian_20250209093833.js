@@ -121,11 +121,6 @@ function updateProgress(e){
 
     }
 
-    function updateValume(e){
-        console.log(e.target.value);
-        aoudioElemnt.volume = e.target.value;
-    }
-
 // events
 playbtn.addEventListener("click",()=>{
     if(isPlay){
@@ -147,8 +142,7 @@ pevBtn.addEventListener("click",pervioseSong);
 aoudioElemnt.addEventListener("timeupdate",updateProgress);
 
 progreess_bar.addEventListener("click",setprogress);
-
-volumeSelected.addEventListener("input",updateValume)
+volumeSelected
 
 
 

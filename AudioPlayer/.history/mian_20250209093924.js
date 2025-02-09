@@ -121,10 +121,7 @@ function updateProgress(e){
 
     }
 
-    function updateValume(e){
-        console.log(e.target.value);
-        aoudioElemnt.volume = e.target.value;
-    }
+    function updateValume()
 
 // events
 playbtn.addEventListener("click",()=>{
