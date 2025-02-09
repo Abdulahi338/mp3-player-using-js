@@ -107,7 +107,7 @@ function updateProgress(e){
         curremtSec = `0${curremtSec}`
     }
     durationEl.textContent = `${curremtMin}:${curremtSec}`;
-    aoudioElemnt.playbackRate = speed;
+    aoudioElemnt
     }
 
     function setprogress(e){

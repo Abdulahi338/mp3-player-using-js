@@ -106,8 +106,7 @@ function updateProgress(e){
         curremtMin = `0${curremtMin}`
         curremtSec = `0${curremtSec}`
     }
-    durationEl.textContent = `${curremtMin}:${curremtSec}`;
-    aoudioElemnt.playbackRate = speed;
+    durationEl.textContent = `${curremtMin}:${curremtSec}`
     }
 
     function setprogress(e){
@@ -156,7 +155,7 @@ speedSlider.addEventListener("change",(e)=>{
     aoudioElemnt.playbackRate = speed;
 })
 
-aoudioElemnt.addEventListener("loadedmetadata",updateProgress)
+aoudioElemnt.addEventListener("")
 
 
 

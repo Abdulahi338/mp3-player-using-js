@@ -106,8 +106,7 @@ function updateProgress(e){
         curremtMin = `0${curremtMin}`
         curremtSec = `0${curremtSec}`
     }
-    durationEl.textContent = `${curremtMin}:${curremtSec}`;
-    aoudioElemnt.playbackRate = speed;
+    durationEl.textContent = `${curremtMin}:${curremtSec}`
     }
 
     function setprogress(e){
@@ -148,15 +147,7 @@ aoudioElemnt.addEventListener("timeupdate",updateProgress);
 
 progreess_bar.addEventListener("click",setprogress);
 
-volumeSelected.addEventListener("input",updateValume);
-
-speedSlider.addEventListener("change",(e)=>{
-    speed = parseFloat(e.target.value);
-    console.log(speed);
-    aoudioElemnt.playbackRate = speed;
-})
-
-aoudioElemnt.addEventListener("loadedmetadata",updateProgress)
+volumeSelected.addEventListener("input",updateValume)
 
 
 
