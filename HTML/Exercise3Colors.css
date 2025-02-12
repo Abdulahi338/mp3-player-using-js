@@ -1,0 +1,56 @@
+.header{
+    background-color: #6868e1;
+    margin-right: 150px;
+    text-align: center;
+    margin-left: 150px;
+}
+.about{
+    background-color: #112e48;
+    color: hwb(208 82% 5%);
+}
+.itams{
+   background-color:#112e48 ;
+   ;
+
+}
+.serveice{
+    margin-top: 16px;
+    color: azure
+}
+.footer{
+    background-color:rgb(52, 47, 47);
+    color: whitesmoke;
+}
+.person2,.person3,.person1{
+    margin-top: 10px;
+    margin-left: 20%;
+    
+
+}
+img{
+    border-radius: 1000%;
+    align-items: center;
+    margin-left: 40%;
+}
+.person2{
+    background-color: #6868e1;
+
+}
+.person3{
+    background-color: #322d2d;
+    color: aliceblue;
+}
+.nam{
+    
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: Bold;
+    
+}
+.title{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: large;
+    
+}

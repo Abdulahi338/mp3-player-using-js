@@ -1,0 +1,47 @@
+.navbar{
+    background-color: rgb(13, 14, 16);
+   
+}
+nav{
+   width: 100px;
+   height: 100px;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 100px;
+}
+li{
+    margin: 20px;
+    list-style: none;
+    
+   
+
+}
+a{
+    text-decoration: none;
+    color: white;
+ 
+}
+.images{
+    width: 300px;
+    padding: 20px;
+    border: 5px solid lightblue;
+    display: inline-block;
+    /* background-color: blueviolet; */
+}
+.image{
+    box-sizing: border-box;
+    
+}
+img{
+    width: 100%;
+}
+h1{
+    color: white;
+}

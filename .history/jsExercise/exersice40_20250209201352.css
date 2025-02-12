@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.container{
+    text-align: center;
+    max-width: 350px;
+    margin: 20%;
+    background-color: rgb(253, 248, 248);
+    box-shadow: 0 5px 30px rgb(36, 33, 33);
+    padding: 30px;
+    border: 10px;
+    height: 50vh;
+
+}
+.vedio-title{
+    padding: 10px;
+
+}
+.vedio-title h2{
+    font-size: 1.5rem;
+}
+.vedio-title p{
+    
+}

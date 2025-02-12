@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedio player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="exersice40.css">
+</head>
+<body>
+    <div class="container">
+        <div class="vedio-title">
+            <video src="exercise40.mp4" width="200" ></video>
+            <h2>Title</h2>
+            <p>Atist Name</p>
+        </div>
+
+        <!-- progress -->
+         <div class="progres-container">
+            <div class="progress-bar">
+                <div class="progress">
+
+                </div>
+            </div>
+
+         </div>
+
+        <!-- controlls button -->
+         <div class="controlls-btn">
+            <button class="btn" id="prev"><i class="fas fa-backward"></i></button>
+            <button class="btn play"  id="play" ><i  class="fas fa-play fas fa-pause"></i></button>
+            <button class="btn" id="next"><i class="fas fa-forward"></i></button>
+         </div>
+
+         <!-- volume -->
+          <div class="sound-controll">
+            <!-- volemu controlls -->
+               <!-- speed controll -->
+           <div class="speed-controll">
+            <select name="speed" id="speed">
+                <option value="0">0</option>
+                <option value="0.5">0.5</option>
+                <option value="0.75">0.75</option>
+                <option value="1">1</option>
+            </select>
+           </div>
+          </div>
+     
+
+       
+
+    </div>
+    
+</body>
+</html>

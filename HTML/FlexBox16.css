@@ -1,0 +1,19 @@
+.media-player{
+    display: flex;
+    width: 400px;
+    
+    
+}
+.control-button{
+    flex: 1;
+     border-radius: 5px;
+    margin: 1px;
+
+}
+.play{
+    flex: 3;
+
+}
+button{
+    height: 30px;
+}

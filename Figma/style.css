@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: lightgray;
+}
+.container{
+    max-width: 1110px;
+    margin-inline: auto;
+    background-color: white;
+}
+.item{
+    width: 408px;
+    height: 480px;
+}
+.item2{
+    background-image: url(Image\ left.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item3{
+    background-image: url(Image\ right.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.0625rem;
+    padding: 20px;
+    
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 1rem;
+    width: 157px;
+    height: 50px;
+}

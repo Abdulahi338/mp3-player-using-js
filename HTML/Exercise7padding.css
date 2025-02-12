@@ -1,0 +1,24 @@
+#block1{
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    padding: 40px 60px;
+    background-color: blueviolet;
+    color: black;
+}
+#block2{
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    padding:    10px 15px;
+    background-color: rgb(67, 226, 43);
+    color: black;
+}
+#block3{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    padding: 30px;
+    background-color: rgb(232, 16, 117);
+    color: black;
+}

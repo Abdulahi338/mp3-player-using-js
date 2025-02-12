@@ -1,0 +1,33 @@
+body{
+    background-color: #e6dddd;
+    
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#quote1{
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid blue;
+}
+.quote{
+    margin: 30px;
+    width: 100px;
+    padding: 12px;
+}
+#quote2{
+    background-color: rgb(170, 127, 255);
+    color: black;
+    border: 2px dashed rgb(12, 12, 52);
+}
+#quote3{
+    background-color: rgb(154, 43, 69);
+    color: black;
+    border: 3px double rgb(28, 205, 137);
+}
+#quote4{
+    background-color: #c6c61c;
+    color: black;
+    border: 5px double rgb(35, 35, 82);
+    text-align: center;
+    box-shadow: inset;
+}

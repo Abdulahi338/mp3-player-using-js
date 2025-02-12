@@ -1,0 +1,41 @@
+.feature-section{
+    background-image: url('https://media.istockphoto.com/id/895933506/photo/ramen-traditional-food-asian-cuisine-background.jpg?s=612x612&w=0&k=20&c=HSqQBPyBWcqyzWy_14gsV98FK6lVZfSDLIGWtFjIChY=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    color: white;
+    
+    border-radius: 30px;
+    /* background-position: top; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* line-height: 30px; */
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 200px; 
+    margin: 200px;
+
+}
+ .feature-section.title{
+    font-weight: 300px;
+    margin-left: 100px;
+    font-size: large;
+  
+    
+}
+.feature-section.Descriptio{
+    font-weight: 70px;
+     margin-left: 100px; 
+     margin: 40px;
+
+}
+h2{
+    background-color: brown;
+    width: 50px;
+    text-align: center;
+    margin-left: 200px;
+}
+#h1{
+    text-align: center;
+    margin-top: 300px;
+}

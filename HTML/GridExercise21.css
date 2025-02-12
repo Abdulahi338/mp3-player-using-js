@@ -1,0 +1,40 @@
+body{
+    color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    padding: 10px;
+}
+.grid div{
+    background-color: black;
+}
+.grid .left{
+
+    grid-column: 1/span 2;
+    
+}
+.grid .left .performance{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin: 10px;
+}
+
+.grid .left .performance .image{
+    background: url(https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/08/97-1024x682.jpg.webp);
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+
+.grid .left .performance .date{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 50px;
+    
+}

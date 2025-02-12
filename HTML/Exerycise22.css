@@ -1,0 +1,36 @@
+img{
+    width: 100%;
+    
+}
+/* .profile-cards{
+    width: 300px;
+    height: 100px;
+    background-color: azure;
+    
+} */
+body{
+    background-color: white;
+}
+.profile-cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    max-width: 20%;
+    background-color: whitesmoke;
+    padding: 50px;
+    margin-top: 10px;
+    border-radius: 5%;
+    margin-left: 50px;
+
+}
+.info{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    font-size: large;
+    text-align: 1px;
+    color: black;
+}

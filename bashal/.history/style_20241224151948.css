@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    max-width: 500;
+
+}

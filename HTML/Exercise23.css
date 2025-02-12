@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+img{
+    max-width: 100%;
+    border-radius: 8pxpx;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+
+
+}
+.blog-item{
+    padding: 20px;
+    min-width: 200px;
+    background-color: white;
+    /* width: calc(25% - 20px); */
+    border-radius: 8px;
+    box-shadow: 0 4px 5px rgb(0, 0,0 , 0.1) ;
+    padding: 20px;
+    text-align: center;
+    /* line-height: 30px; */
+
+   
+}
+
+/* computer */
+/* @media(max-width:1200px){
+    .blog-item{
+        width: calc(33% - 20px);
+        background-color: blueviolet;
+    }
+
+} */
+/* tablet */
+
+@media screen and (max-width: 768px){
+    .blog-item{
+        /* width: 50%;
+        background-color: rgb(16, 207, 61); */
+        flex-direction: column;
+        width: calc(50% - 20px);
+        background-color: blue;
+        
+    }
+
+}
+/* Phone */
+
+@media(max-width: 480px){
+    .blog-item{
+        width: 100%;
+        background-color: rgb(193, 20, 20);
+    }
+
+}

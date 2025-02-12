@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: blue;
+    height: 300px;
+    width:500px;
+    margin:50px,a;
+
+}
+.sub{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 80%;
+    left: 70%;
+    z-index: 1;
+    border-radius: 50%;
+}
